@@ -1,0 +1,2 @@
+# composer-check-lib
+#
