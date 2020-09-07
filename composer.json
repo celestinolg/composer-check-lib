@@ -1,0 +1,29 @@
+{
+    "name": "celestinolg/composercheklib",
+    "description": "verify version of the lib you use in your project",
+    "keywords": [
+      "Composer",
+      "Lib",
+      "Library",
+      "Check",
+      "Version"
+    ],
+    "homepage": "http://www.github.com/celestinolg",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Celestino António Augusto Langa",
+        "email": "celestinolanga11@gmail.com",
+        "role": "Developer"
+      }
+    ],
+    "require": {
+      "php": "^7.2",
+        "phpmailer/phpmailer": "^6.1"
+    },
+    "autoload": {
+      "psr-4": {
+        "Celestinolg\\ComposerCheckLib\\": "src"
+      }
+    }
+  }
